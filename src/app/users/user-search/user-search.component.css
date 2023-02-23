@@ -1,0 +1,35 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .searchbar{
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+  }
+  input{
+    width: 25%;
+    height: 40px;
+    border-radius: 20px;
+    font-size: large;
+    font-style: oblique;
+  }
+  button{
+    margin-left: 10px;
+    
+  }
+  .container{
+    margin-top: 20px;
+  }

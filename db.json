@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ali Hassan Kaleemi",
+      "username": "khan",
+      "phone": 2543243423,
+      "email": "HassanKaleem911@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Sameer Khan",
+      "username": "Sameer 123",
+      "phone": 3219882192,
+      "email": "Sameer321@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Usama khan",
+      "username": "Usama456",
+      "phone": 3440085392,
+      "email": "zargay692@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Imran Khan",
+      "username": "janikhan",
+      "phone": 3298329389,
+      "email": "Emmu321@gmail.com"
+    },
+    {
+      "id": 5,
+      "name": "Mustafa xaib",
+      "username": "mushi321",
+      "phone": 3458328292,
+      "email": "Mustafa@gmail.com"
+    },
+    {
+      "id": 6,
+      "name": "Saad Khan",
+      "username": "Saad456",
+      "phone": 3438292033,
+      "email": "Saad456@gmail.com"
+    }
+  ]
+}

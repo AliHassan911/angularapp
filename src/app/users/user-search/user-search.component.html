@@ -1,0 +1,41 @@
+<!-- <input type="text" [(ngModel)]="searchTerm" placeholder="Search by email">
+    <button (click)="search()">Search</button>
+
+    <ul>
+      <li *ngFor="let user of searchResults">
+        {{ user.name }} <br> ({{ user.email }}) {{user.username}} {{user.phone}}
+      </li>
+    </ul> -->
+
+    
+
+    <div class=" searchbar">
+        <!-- <input type="text" [(ngModel)]="searchTerm" placeholder="Search by email"> -->
+        <input class="example-full-width" type="email" matInput [(ngModel)]="searchTerm" placeholder="Search by email">
+        <button  mat-raised-button color="primary" (click)="search()">Search</button>
+    </div>
+    <div class="container">
+        
+        <div class="row">
+            <div class="form" *ngFor="let user of searchResults">
+                <table>
+                    <tr>
+                        <th>Id</th>
+                      <th>Name</th>
+                      <th>Username</th>
+                      <th>Email</th>
+                      <th>Phono Number</th>
+                    </tr>
+                    <tr>
+                        <td>{{user.id}}</td>
+                      <td>{{ user.name }}</td>
+                      <td>{{ user.username }}</td>
+                      <td>{{user.email}}</td>
+                      <td>{{user.phone}}</td>
+                    </tr>
+                   
+                  </table>
+            </div>
+        </div>
+        
+    </div>
